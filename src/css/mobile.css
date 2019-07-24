@@ -1,0 +1,139 @@
+@media only screen and (max-width: 768px) {
+.container-fluid{
+    padding:0;
+}
+@-webkit-keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-40px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+}
+
+/* Standard syntax */
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fadeinUp {
+    -webkit-animation: fadeInUp 500ms ease-in-out; /* Chrome, Safari, Opera */
+    animation: fadeInUp 500ms ease-in-out;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(40px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+}
+
+/* Standard syntax */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.box-card{
+     width: 73%;
+    height: 40%;
+    /* border: 5px solid rgba(255, 255, 255, 0); */
+     border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.22);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 3;
+    
+  }
+  .box1{
+     -webkit-animation: fadeInDown 500ms ease-in-out; /* Chrome, Safari, Opera */
+    animation: fadeInDown 500ms ease-in-out;
+      overflow: hidden;
+  
+    position: absolute;
+    transition: transform .5s;
+    top:-3%;
+    left:0;
+}
+  #image1{
+      display: block;
+      width:80%;
+      position: absolute;
+      top:36%;
+      left:10%;
+  }
+  #image2{
+      display: block;
+      width:110%;
+      position: absolute;
+      left:-15%;
+    }
+    #text1{
+        color:#fff;
+        position: absolute;
+        top:90%;
+        left:40%;
+        font-size: 14px;
+    }
+    #text2{
+        color:#fff;
+        font-size:14px; 
+    }
+  .box2{
+   overflow: hidden;
+   
+    position: absolute;
+    transition: transform .5s;
+    bottom:-3%;
+    right:0;
+    -webkit-animation: fadeInUp 500ms ease-in-out; /* Chrome, Safari, Opera */
+    animation: fadeInUp 500ms ease-in-out;
+}
+.logo{
+    width: 30%;
+    margin:0 auto;
+    position: absolute;
+    top:2%;
+    left:35%;
+}  
+.slogan{display:none;}
+  #welcome-text{
+      display: block;
+      position:absolute;
+      margin:  0 auto;
+      left:36%;
+      font-size:10px;
+      color:#fff;
+      top:51%;
+  }
+  .loader{
+      overflow:hidden;
+      position: relative;
+        margin:0 auto;
+      top:45%;
+  }
+  
+  
+  
+}

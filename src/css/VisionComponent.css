@@ -1,0 +1,121 @@
+#xloader{
+  margin-top:3px;
+  margin-left:2px;
+  width: 50%;
+  
+}
+.VisionAssist{
+  
+  display: inline;
+  
+  
+  /* float:right; */
+  background-color: rgba(255,255,255,0.22);
+  border: 3px solid rgba(255, 255, 255, 0);
+  /* transition: all .3s ease; */
+     border-radius: 18px;
+
+}
+.assistant{
+  display:inline-flex;
+  
+ 
+  /* background-color: rgba(255,255,255,0.22); */
+  border: 3px solid rgba(255, 255, 255, 0);
+   border-radius: 18px;
+  /* margin-right:20px;
+  margin-left:10px; */
+  /* overflow: hidden; */
+transition: all .3s ease;
+  
+}
+/* 
+.VisionAssist:hover .assistant{
+  display: block;
+   
+} */
+
+.assistant.circle{
+  display: inline-block;
+  
+
+}
+.assistant2{
+  position:relative;
+  top:10px;
+}
+.circle{
+   position:absolute;
+   right:1%;
+   border-radius: 25px;
+   border: 2px solid rgba(154, 190, 217, 0.445);
+   background-color:  #9ABED9;
+   /* margin-left:4px;
+   margin-top:2px; */
+   /* margin-top:-2px; */
+   width: 28px;
+   height:28px;
+   transition: transform .5s;
+  
+}
+.circle:hover {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+/* .VisionAssist.assistant{
+ 
+transition: transform 4.5s;
+} */
+/* .VisionAssist:hover .assistant{
+ 
+margin-right:100px;
+} */
+
+#in{
+  border-radius: 15px;
+  margin-top:10px;
+  padding:10px;
+  position: relative;
+  border-color: rgba(255, 255, 255, 0.0);
+  background-color:rgba(255, 255, 255, 0.10);
+ color:white;
+ opacity:1;
+ outline:none;
+ width:100%;
+ z-index: 2;
+ text-align: center;
+  /* min-width: 80px; */
+  
+    /* max-width: 500px; */
+ font-size: x-small;
+ margin-bottom: 8px;
+ 
+}
+ ::placeholder{
+  color:#fff;
+}
+.vision{
+        /* position: absolute;
+    top: 1vh;
+    right: 6vh;
+    z-index: 2; */
+    position:relative;
+    float:right;
+    flex:0 auto;
+    margin:0 auto;
+    top:1vh;
+
+      
+}
+.suggestion{
+  background-color:rgba(255, 255, 255, 0.10);
+  border-radius: 15px;
+  padding:5px;
+ transition: transform .5s;
+  margin: 0px 10px 10px 10px;
+}
+.suggestion:hover{
+  z-index: inherit;
+  transform: scale(1.02);
+}
