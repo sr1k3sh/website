@@ -10,7 +10,7 @@
   "dependencies": {
     "animejs": "^3.0.1",
     "core-js": "^2.6.5",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "roboto-fontface": "^0.10.0",
     "vue": "^2.6.10"
   },
